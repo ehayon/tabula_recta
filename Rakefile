@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echo.new('tabula_recta', '0.1.0') do |p|
+Echoe.new('tabula_recta', '0.1.0') do |p|
     p.description = "A gem for easily generating a tabula recta"
     p.url = "http://github.com/ehayon/tabula_recta"
     p.author = "Ethan Hayon"
